@@ -65,8 +65,8 @@ const HistoryIcon = () => (
 );
 
 const quickActions = [
-  { icon: ExploreIcon, label: 'สำรวจ', path: '/tinder', gradient: 'from-rose-500 via-pink-500 to-rose-400', shadow: 'shadow-rose-200' },
-  { icon: SavedIcon, label: 'ที่บันทึก', path: '/gallery', gradient: 'from-pink-500 via-fuchsia-500 to-pink-400', shadow: 'shadow-pink-200' },
+  { icon: ExploreIcon, label: 'สำรวจ', path: '/tinder', gradient: 'from-sky-500 via-emerald-500 to-teal-400', shadow: 'shadow-emerald-200' },
+  { icon: SavedIcon, label: 'ที่บันทึก', path: '/gallery', gradient: 'from-emerald-500 via-teal-500 to-emerald-400', shadow: 'shadow-teal-200' },
   { icon: RewardsIcon, label: 'รางวัล', path: '/rewards', gradient: 'from-amber-500 via-orange-500 to-amber-400', shadow: 'shadow-amber-200' },
   { icon: HistoryIcon, label: 'ประวัติ', path: '/history', gradient: 'from-teal-500 via-emerald-500 to-teal-400', shadow: 'shadow-teal-200' },
 ];
@@ -141,7 +141,7 @@ const LaunchPage: React.FC = () => {
                 className="w-14 h-14 rounded-2xl border-2 border-white shadow-lg object-cover"
               />
             ) : (
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center shadow-lg">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center shadow-lg">
                 <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
@@ -172,12 +172,12 @@ const LaunchPage: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
             
             {/* Animated Glow Border */}
-            <div className="absolute inset-0 rounded-3xl ring-2 ring-white/20 group-hover:ring-rose-400/50 transition-all duration-300" />
+            <div className="absolute inset-0 rounded-3xl ring-2 ring-white/20 group-hover:ring-emerald-400/50 transition-all duration-300" />
             
             {/* Content */}
             <div className="absolute bottom-0 left-0 right-0 p-4">
               <div className="flex items-center gap-2 mb-2">
-                <span className="bg-gradient-to-r from-rose-500 to-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg animate-pulse">
+                <span className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg animate-pulse">
                   🎉 NEW EVENT
                 </span>
                 <span className="bg-white/20 backdrop-blur-sm text-white text-xs font-medium px-2.5 py-1 rounded-full">
@@ -287,7 +287,7 @@ const LaunchPage: React.FC = () => {
         <div className="mb-6 animate-fade-in-delayed">
           <div className="flex items-center justify-between mb-3">
             <h3 className="text-lg font-bold text-gray-900">สถานที่แนะนำ</h3>
-            <Link to="/tinder" className="text-sm text-purple-600 font-semibold flex items-center hover:text-purple-700 transition-colors">
+            <Link to="/tinder" className="text-sm text-emerald-600 font-semibold flex items-center hover:text-emerald-700 transition-colors">
               ดูทั้งหมด
               <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -337,7 +337,7 @@ const LaunchPage: React.FC = () => {
         </div>
 
         {/* Start Exploring CTA - Clean Design */}
-        <div className="bg-gradient-to-br from-rose-500 via-pink-500 to-orange-400 rounded-3xl p-6 mb-6 shadow-xl animate-slide-up relative overflow-hidden" style={{ animationDelay: '0.2s' }}>
+        <div className="bg-gradient-to-br from-sky-500 via-emerald-500 to-yellow-400 rounded-3xl p-6 mb-6 shadow-xl animate-slide-up relative overflow-hidden" style={{ animationDelay: '0.2s' }}>
           {/* Decorative elements */}
           <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2" />
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-1/2 -translate-x-1/2" />
@@ -349,7 +349,7 @@ const LaunchPage: React.FC = () => {
               <p className="text-white/85 text-sm mb-4">ค้นพบสถานที่ท่องเที่ยวที่เหมาะกับคุณ</p>
               <Link
                 to="/tinder"
-                className="inline-flex items-center px-5 py-2.5 bg-white text-rose-600 rounded-xl font-bold text-sm shadow-lg hover:shadow-xl transition-all duration-200 active:scale-95"
+                className="inline-flex items-center px-5 py-2.5 bg-white text-emerald-600 rounded-xl font-bold text-sm shadow-lg hover:shadow-xl transition-all duration-200 active:scale-95"
               >
                 เริ่มสำรวจ
                 <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -373,7 +373,7 @@ const LaunchPage: React.FC = () => {
                 title: 'สำรวจสถานที่',
                 desc: 'ปัดขวาเพื่อบันทึกสถานที่ที่คุณชอบ',
                 iconPath: 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z',
-                color: 'from-rose-500 to-pink-600',
+                color: 'from-emerald-500 to-teal-600',
                 bgLight: 'bg-rose-50'
               },
               {
@@ -381,7 +381,7 @@ const LaunchPage: React.FC = () => {
                 title: 'สร้างคอลเลคชัน',
                 desc: 'รวบรวมสถานที่โปรดของคุณ',
                 iconPath: 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10',
-                color: 'from-rose-500 to-pink-600',
+                color: 'from-emerald-500 to-teal-600',
                 bgLight: 'bg-rose-50'
               },
               {
@@ -426,8 +426,8 @@ const LaunchPage: React.FC = () => {
               value: '20+',
               label: 'สถานที่',
               iconPath: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z',
-              color: 'text-purple-600',
-              bgColor: 'bg-purple-100'
+              color: 'text-emerald-600',
+              bgColor: 'bg-emerald-100'
             },
             {
               value: '8+',
@@ -463,7 +463,7 @@ const LaunchPage: React.FC = () => {
             className="flex items-center justify-between p-4 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-200 group"
           >
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300">
+              <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -473,7 +473,7 @@ const LaunchPage: React.FC = () => {
                 <p className="text-sm text-gray-500">ทำความรู้จักกับทีมและโปรเจค</p>
               </div>
             </div>
-            <svg className="w-5 h-5 text-gray-400 group-hover:text-purple-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5 text-gray-400 group-hover:text-emerald-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Link>

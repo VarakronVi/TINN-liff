@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LONG - LINE LIFF Travel App
 
 A travel discovery app built with React, TypeScript, and LINE LIFF that lets users swipe through destinations, save favorites, and plan personalized trips.
@@ -146,3 +147,6 @@ src/
 ## License
 
 MIT
+=======
+# TINN-liff
+>>>>>>> 43ab9d98c6ec7ee8699b89c3d81b9c82ebb2b802

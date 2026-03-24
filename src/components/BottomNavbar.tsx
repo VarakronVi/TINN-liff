@@ -91,19 +91,19 @@ const BottomNavbar: React.FC = () => {
               to={item.path}
               className={`relative flex flex-col items-center justify-center w-full h-full transition-all duration-300 ${
                 active
-                  ? 'text-rose-500'
-                  : 'text-gray-400 hover:text-rose-400'
+                  ? 'text-emerald-500'
+                  : 'text-gray-400 hover:text-emerald-400'
               }`}
             >
               {/* Active indicator pill */}
               {active && (
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-gradient-to-r from-rose-400 to-pink-500 rounded-full shadow-lg shadow-rose-200" />
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full shadow-lg shadow-emerald-200" />
               )}
               
               <div className={`relative transition-all duration-300 ${active ? 'scale-110 -translate-y-0.5' : ''}`}>
                 {/* Icon glow effect when active */}
                 {active && (
-                  <div className="absolute inset-0 bg-rose-400/20 blur-xl rounded-full" />
+                  <div className="absolute inset-0 bg-emerald-400/20 blur-xl rounded-full" />
                 )}
                 <div className="relative">
                   {active ? item.activeIcon : item.icon}
@@ -111,7 +111,7 @@ const BottomNavbar: React.FC = () => {
               </div>
               
               <span className={`text-[10px] mt-1 font-semibold tracking-wide transition-all duration-300 ${
-                active ? 'text-rose-500' : 'text-gray-400'
+                active ? 'text-emerald-500' : 'text-gray-400'
               }`}>
                 {item.label}
               </span>

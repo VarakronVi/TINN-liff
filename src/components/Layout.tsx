@@ -3,6 +3,7 @@ import BottomNavbar from './BottomNavbar';
 import { useLiff } from '../hooks/useLiff';
 import CoinCounter from './CoinCounter';
 import AnimatedBackground from './AnimatedBackground';
+import tinnLogo from '../assets/tinn-logo.svg';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -40,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50/60 via-white to-teal-50/40 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-sky-50/60 via-green-50/40 to-amber-50/30 relative overflow-hidden">
       {/* Animated Background */}
       {backgroundVariant !== 'none' && (
         <AnimatedBackground variant={backgroundVariant} />
@@ -83,13 +84,12 @@ const Layout: React.FC<LayoutProps> = ({
               {headerTitle ? (
                 <h1 className="text-lg font-bold text-gray-800 truncate">{headerTitle}</h1>
               ) : (
-                <div className="flex items-center justify-center space-x-1.5">
-                  <span className="text-xl font-extrabold bg-gradient-to-r from-green-500 via-emerald-400 to-teal-400 bg-clip-text text-transparent tracking-tight">
-                    TINN
-                  </span>
-                  <span className="text-xs bg-gradient-to-r from-emerald-400 to-teal-400 text-white px-2 py-0.5 rounded-full font-semibold shadow-sm">
-                    TH
-                  </span>
+                <div className="flex items-center justify-center">
+                  <img
+                    src={tinnLogo}
+                    alt="TINN"
+                    className="h-8 w-auto"
+                  />
                 </div>
               )}
             </div>
