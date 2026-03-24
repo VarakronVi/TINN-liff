@@ -1,6 +1,10 @@
 import type { TravelPlace } from '../types/TravelPlace';
 
 export const mockTravelPlaces: TravelPlace[] = [
+
+  // ══════════════════════════════════════════
+  // เชียงใหม่ (Chiang Mai)
+  // ══════════════════════════════════════════
   {
     id: '1',
     name: 'วัดอุโมงค์',
@@ -11,8 +15,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.6,
-    distance: "~3.2 กม.",
-    tags: ["วัฒนธรรม", "ธรรมชาติ", "ปลอด PM2.5"]
+    distance: '~3.2 กม.',
+    tags: ['วัฒนธรรม', 'ธรรมชาติ', 'ปลอด PM2.5'],
   },
   {
     id: '2',
@@ -24,8 +28,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.7,
-    distance: "~3.4 กม.",
-    tags: ["ธรรมชาติ", "ปลอด PM2.5"]
+    distance: '~3.4 กม.',
+    tags: ['ธรรมชาติ', 'ปลอด PM2.5'],
   },
   {
     id: '3',
@@ -37,8 +41,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.7,
-    distance: "~6.3 กม.",
-    tags: ["ธรรมชาติ", "ปลอด PM2.5"]
+    distance: '~6.3 กม.',
+    tags: ['ธรรมชาติ', 'ปลอด PM2.5'],
   },
   {
     id: '4',
@@ -50,8 +54,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.2,
-    distance: "~5.8 กม.",
-    tags: ["วัฒนธรรม", "ธรรมชาติ"]
+    distance: '~5.8 กม.',
+    tags: ['วัฒนธรรม', 'ธรรมชาติ'],
   },
   {
     id: '5',
@@ -63,8 +67,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.5,
-    distance: "~13.5 กม.",
-    tags: ["ธรรมชาติ", "วัฒนธรรม", "ปลอด PM2.5"]
+    distance: '~13.5 กม.',
+    tags: ['ธรรมชาติ', 'วัฒนธรรม', 'ปลอด PM2.5'],
   },
   {
     id: '6',
@@ -76,8 +80,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.7,
-    distance: "~10.7 กม.",
-    tags: ["วัฒนธรรม", "ธรรมชาติ", "ปลอด PM2.5"]
+    distance: '~10.7 กม.',
+    tags: ['วัฒนธรรม', 'ธรรมชาติ', 'ปลอด PM2.5'],
   },
   {
     id: '7',
@@ -89,8 +93,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.5,
-    distance: "~750 ม.",
-    tags: ["ช้อปปิ้ง", "วัฒนธรรม"]
+    distance: '~750 ม.',
+    tags: ['ช้อปปิ้ง', 'วัฒนธรรม'],
   },
   {
     id: '8',
@@ -102,8 +106,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.3,
-    distance: "~1 กม.",
-    tags: ["ช้อปปิ้ง", "วัฒนธรรม"]
+    distance: '~1 กม.',
+    tags: ['ช้อปปิ้ง', 'วัฒนธรรม'],
   },
   {
     id: '10',
@@ -115,8 +119,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.5,
-    distance: "~2.2 กม.",
-    tags: ["อาหาร", "สตรีทฟู้ด"]
+    distance: '~2.2 กม.',
+    tags: ['อาหาร', 'สตรีทฟู้ด'],
   },
   {
     id: '11',
@@ -128,8 +132,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.8,
-    distance: "~6.8 กม.",
-    tags: ["อาหาร", "สตรีทฟู้ด"]
+    distance: '~6.8 กม.',
+    tags: ['อาหาร', 'สตรีทฟู้ด'],
   },
   {
     id: '12',
@@ -141,8 +145,8 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.5,
-    distance: "~500 ม.",
-    tags: ["อาหาร", "สตรีทฟู้ด"]
+    distance: '~500 ม.',
+    tags: ['อาหาร', 'สตรีทฟู้ด'],
   },
   {
     id: '13',
@@ -154,7 +158,291 @@ export const mockTravelPlaces: TravelPlace[] = [
     country: 'ประเทศไทย',
     city: 'Chiang Mai',
     rating: 4.8,
-    distance: "~2 กม.",
-    tags: ["อาหาร", "วัฒนธรรม"]
+    distance: '~2 กม.',
+    tags: ['อาหาร', 'วัฒนธรรม'],
   },
-]
+
+  // ══════════════════════════════════════════
+  // เชียงราย (Chiang Rai)
+  // ══════════════════════════════════════════
+  {
+    id: '20',
+    name: 'วัดร่องขุ่น (วัดขาว)',
+    lat: 19.8283,
+    long: 99.7618,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Wat_Rong_Khun_2016.jpg/1280px-Wat_Rong_Khun_2016.jpg',
+    description: 'ผลงานชิ้นเอกของอาจารย์เฉลิมชัย โฆษิตพิพัฒน์ วัดร่องขุ่นหรือ "วัดขาว" เป็นหนึ่งในสถาปัตยกรรมที่งดงามที่สุดในประเทศไทย ตกแต่งด้วยกระจกสีขาวและเงินระยิบระยับ สะท้อนแสงแดดเป็นประกาย สะพานทางเข้าเปรียบเสมือนการข้ามวัฏสงสาร',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.7,
+    distance: '~13 กม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'ถ่ายรูป', 'ปลอด PM2.5'],
+  },
+  {
+    id: '21',
+    name: 'วัดร่องเสือเต้น (วัดฟ้า)',
+    lat: 19.9094,
+    long: 99.8318,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Wat_Rong_Suea_Ten.jpg/1280px-Wat_Rong_Suea_Ten.jpg',
+    description: 'วัดสีฟ้าสดใสที่ตกแต่งอย่างวิจิตรด้วยลวดลายพญานาคและลายไทยประยุกต์ บริเวณพระอุโบสถปูด้วยกระจกสีฟ้าและสีเงิน สวยงามตระการตาโดยเฉพาะเวลากลางคืนเมื่อเปิดไฟ เป็น hidden gem ที่ไม่แพ้วัดร่องขุ่น',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.6,
+    distance: '~3 กม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'ถ่ายรูป', 'local'],
+  },
+  {
+    id: '22',
+    name: 'ดอยตุง',
+    lat: 20.3167,
+    long: 99.8167,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Doi_Tung_Royal_Villa.jpg/1280px-Doi_Tung_Royal_Villa.jpg',
+    description: 'พระตำหนักดอยตุงและสวนแม่ฟ้าหลวง ตั้งอยู่บนดอยสูงใกล้ชายแดนไทย-เมียนมา บรรยากาศเย็นสบายตลอดปี ชมสวนดอกไม้นานาพันธุ์ เรียนรู้โครงการพัฒนาดอยตุงที่ช่วยชาวบ้านบนดอยให้มีอาชีพที่ยั่งยืน',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.6,
+    distance: '~50 กม. จากตัวเมือง',
+    tags: ['ธรรมชาติ', 'วัฒนธรรม', 'ปลอด PM2.5'],
+  },
+  {
+    id: '23',
+    name: 'สามเหลี่ยมทองคำ',
+    lat: 20.3556,
+    long: 100.0861,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Golden_Triangle_-_Chiang_Saen_-_Thailand.jpg/1280px-Golden_Triangle_-_Chiang_Saen_-_Thailand.jpg',
+    description: 'จุดบรรจบของสามประเทศ ไทย ลาว และเมียนมา ณ บริเวณที่แม่น้ำโขงและแม่น้ำรวกมาบรรจบกัน เป็นสถานที่ทางประวัติศาสตร์และวัฒนธรรม มีพิพิธภัณฑ์ฝิ่น ล่องเรือชมวิว และตลาดชายแดน',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.3,
+    distance: '~60 กม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'ประวัติศาสตร์'],
+  },
+  {
+    id: '24',
+    name: 'ไร่ชาฉุยฟง',
+    lat: 19.9892,
+    long: 99.9061,
+    image: 'https://static.thairath.co.th/media/dFQROr7oWzulq5Fa3yCAuFOoEnBWDFmMqt9AcHKtqLkLOtiAbqoSiulBKLmrBE1HBil.jpg',
+    description: 'ไร่ชาขนาดใหญ่บนไหล่เขาที่มีวิวทะเลชาสีเขียวสุดตา บรรยากาศหมอกยามเช้าสวยงามมาก มีคาเฟ่ชาวิวดีให้นั่งชิล ชิมชาอูหลงหลากหลายสูตร และซื้อชาคุณภาพดีกลับบ้าน',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.5,
+    distance: '~20 กม. จากตัวเมือง',
+    tags: ['ธรรมชาติ', 'ถ่ายรูป', 'local', 'ปลอด PM2.5'],
+  },
+  {
+    id: '25',
+    name: 'ถ้ำหลวง-ขุนน้ำนางนอน',
+    lat: 20.3764,
+    long: 99.8747,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Tham_Luang_cave_entrance.jpg/1280px-Tham_Luang_cave_entrance.jpg',
+    description: 'ถ้ำที่โด่งดังระดับโลกจากเหตุการณ์กู้ภัย 13 ชีวิตทีมหมูป่า ปัจจุบันปรับเป็นอุทยานและแหล่งเรียนรู้ มีนิทรรศการบอกเล่าเรื่องราวการกู้ภัย และชมความงามของถ้ำด้านใน ⚠️ ปิดเข้าถ้ำช่วงฤดูฝน (พ.ค.–ต.ค.)',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.4,
+    distance: '~70 กม. จากตัวเมือง',
+    tags: ['ธรรมชาติ', 'ประวัติศาสตร์'],
+  },
+  {
+    id: '26',
+    name: 'หมู่บ้านแม่สลอง',
+    lat: 20.1789,
+    long: 99.6381,
+    image: 'https://media.readthecloud.co/wp-content/uploads/2020/01/maesalong-01-750x500.jpg',
+    description: 'ชุมชนชาวจีนยูนนานบนดอยสูงที่ยังคงวิถีชีวิตและวัฒนธรรมดั้งเดิมไว้อย่างเหนียวแน่น มีถนนสายชาและร้านอาหารจีนยูนนานแท้ๆ บรรยากาศหมอกและไร่ชาที่สวยงาม เหมาะสำหรับคนชอบ local authentic experience',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.5,
+    distance: '~70 กม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'local', 'ธรรมชาติ'],
+  },
+  {
+    id: '27',
+    name: 'ตลาดไนท์บาซาร์เชียงราย',
+    lat: 19.9092,
+    long: 99.8309,
+    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e5/97/67/caption.jpg?w=900&h=500&s=1',
+    description: 'ตลาดกลางคืนใจกลางเมืองเชียงรายที่คึกคักสุดๆ มีทั้งอาหารพื้นเมือง สตรีทฟู้ด ของที่ระลึก งานหัตถกรรมชาวเขา และเสื้อผ้า เปิดทุกวันตั้งแต่ 18:00 น. เป็นต้นไป',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.3,
+    distance: '~1 กม. จากตัวเมือง',
+    tags: ['อาหาร', 'ช้อปปิ้ง', 'สตรีทฟู้ด'],
+  },
+  {
+    id: '28',
+    name: 'ข้าวซอยป้าแดง',
+    lat: 19.9121,
+    long: 99.8271,
+    image: 'https://img.wongnai.com/p/1920x0/2019/11/07/7e3c3d7f0e624e2e9e2c4e5e8e3e1e4e.jpg',
+    description: 'ร้านข้าวซอยต้นตำรับเชียงรายที่ชาวบ้านแนะนำกันปากต่อปาก น้ำซุปเข้มข้นหอมกลิ่นเครื่องแกง เส้นนุ่มพอดี ราคาย่อมเยา เปิดเช้าถึงหมด มักมีคิวยาวช่วงสายๆ',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.6,
+    distance: '~500 ม. จากตัวเมือง',
+    tags: ['อาหาร', 'local', 'สตรีทฟู้ด'],
+  },
+  {
+    id: '29',
+    name: "คาเฟ่ Cat'n A Cup",
+    lat: 19.9108,
+    long: 99.8296,
+    image: 'https://img.wongnai.com/p/1920x0/2020/03/15/catnacup.jpg',
+    description: 'คาเฟ่แมวกลางเมืองเชียงราย นั่งทำงานหรือพักผ่อนกับเหล่าแมวน่ารัก กาแฟและเครื่องดื่มรสดี บรรยากาศอบอุ่นเป็นกันเอง เหมาะสำหรับคนที่อยากพักจากการท่องเที่ยว',
+    country: 'ประเทศไทย',
+    city: 'Chiang Rai',
+    rating: 4.4,
+    distance: '~800 ม. จากตัวเมือง',
+    tags: ['คาเฟ่', 'ผ่อนคลาย', 'local'],
+  },
+
+  // ══════════════════════════════════════════
+  // น่าน (Nan)
+  // ══════════════════════════════════════════
+  {
+    id: '40',
+    name: 'วัดภูมินทร์',
+    lat: 18.7759,
+    long: 100.7747,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wat_Phumin_Nan.jpg/1280px-Wat_Phumin_Nan.jpg',
+    description: 'วัดเก่าแก่อายุกว่า 400 ปี เอกลักษณ์คือสถาปัตยกรรมแบบจัตุรมุข มีภาพจิตรกรรมฝาผนังอันลือชื่อ "ปู่ม่าน ย่าม่าน" ภาพชายหญิงกระซิบรักกันริมหู ถือเป็น masterpiece ของศิลปะน่านที่ไม่ควรพลาด',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.8,
+    distance: '~500 ม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'ประวัติศาสตร์', 'local'],
+  },
+  {
+    id: '41',
+    name: 'วัดพระธาตุช้างค้ำวรวิหาร',
+    lat: 18.7790,
+    long: 100.7731,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Wat_Phra_That_Chang_Kham.jpg/1280px-Wat_Phra_That_Chang_Kham.jpg',
+    description: 'วัดสำคัญคู่บ้านคู่เมืองน่าน มีเจดีย์ทรงล้านนาที่มีช้างรายล้อมฐาน พระพุทธรูปทองคำ "พระพุทธนันทบุรีศรีศากยมุนี" ประดิษฐาน ณ วิหารหลวง เดินเท้าได้จากวัดภูมินทร์',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.6,
+    distance: '~400 ม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'ประวัติศาสตร์'],
+  },
+  {
+    id: '42',
+    name: 'ดอยภูคา',
+    lat: 19.1667,
+    long: 101.0833,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Doi_Phu_Kha_National_Park.jpg/1280px-Doi_Phu_Kha_National_Park.jpg',
+    description: 'อุทยานแห่งชาติดอยภูคา แหล่งพบต้นชมพูภูคา (Bretschneidera sinensis) ที่หายากที่สุดในโลก บานเพียงปีละครั้งช่วงเดือน ก.พ.–มี.ค. มีเส้นทางเดินป่า น้ำตก และวิวภูเขาที่งดงาม',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.7,
+    distance: '~80 กม. จากตัวเมือง',
+    tags: ['ธรรมชาติ', 'ผจญภัย', 'ปลอด PM2.5'],
+  },
+  {
+    id: '43',
+    name: 'บ้านไทลื้อ บ้านหนองบัว',
+    lat: 19.5431,
+    long: 100.8972,
+    image: 'https://media.readthecloud.co/wp-content/uploads/2019/08/nongbua-01-750x500.jpg',
+    description: 'หมู่บ้านไทลื้อที่ยังคงรักษาวิถีชีวิตดั้งเดิมไว้อย่างงดงาม ขึ้นชื่อเรื่องผ้าทอลายน้ำไหลอันวิจิตร แต่ละบ้านมีกี่ทอผ้า สามารถดูการทอและซื้อผ้าได้โดยตรงจากชาวบ้าน เป็น local experience แท้ๆ ที่หาไม่ได้จากที่ไหน',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.7,
+    distance: '~70 กม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'local', 'ช้อปปิ้ง'],
+  },
+  {
+    id: '44',
+    name: 'ล่องแก่งน้ำว้า',
+    lat: 18.7136,
+    long: 100.9833,
+    image: 'https://media.readthecloud.co/wp-content/uploads/2019/11/nan-river-01-750x500.jpg',
+    description: 'กิจกรรมล่องแก่งในแม่น้ำว้าที่ไหลผ่านป่าเขาอันบริสุทธิ์ เหมาะกับสายผจญภัย ระดับความยากปานกลาง ชมธรรมชาติ วิถีชีวิตริมน้ำ และความสวยงามของป่าน่านที่ยังคงสมบูรณ์ มีผู้นำเที่ยวท้องถิ่นให้บริการ',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.5,
+    distance: '~40 กม. จากตัวเมือง',
+    tags: ['ผจญภัย', 'ธรรมชาติ', 'local'],
+  },
+  {
+    id: '45',
+    name: 'พิพิธภัณฑสถานแห่งชาติน่าน',
+    lat: 18.7763,
+    long: 100.7737,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Nan_National_Museum.jpg/1280px-Nan_National_Museum.jpg',
+    description: 'พิพิธภัณฑ์ตั้งอยู่ในพระราชวังเจ้าผู้ครองนครน่านอายุกว่า 100 ปี รวบรวมโบราณวัตถุ เครื่องใช้ เครื่องแต่งกาย และงานศิลปกรรมของน่านไว้อย่างครบถ้วน จุดเด่นคือ "งาช้างดำ" สิ่งศักดิ์สิทธิ์คู่เมืองน่าน',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.5,
+    distance: '~600 ม. จากตัวเมือง',
+    tags: ['วัฒนธรรม', 'ประวัติศาสตร์', 'ในร่ม'],
+  },
+  {
+    id: '46',
+    name: 'สกายวอล์คน่าน (ผาชู้)',
+    lat: 18.9072,
+    long: 100.6794,
+    image: 'https://media.readthecloud.co/wp-content/uploads/2022/10/nan-skywalk-01-750x500.jpg',
+    description: 'จุดชมวิวกระจกใสบนผาสูงที่สามารถมองเห็นวิวเมืองน่านและทะเลหมอกได้อย่างกว้างไกล เป็น unseen น่านที่ได้รับความนิยมในหมู่นักท่องเที่ยว ดีที่สุดช่วงเช้าตรู่เพื่อชมทะเลหมอก',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.4,
+    distance: '~30 กม. จากตัวเมือง',
+    tags: ['ธรรมชาติ', 'ถ่ายรูป', 'ผจญภัย'],
+  },
+  {
+    id: '47',
+    name: 'ข้าวซอยสายน้ำผึ้ง',
+    lat: 18.7770,
+    long: 100.7762,
+    image: 'https://img.wongnai.com/p/1920x0/2021/05/10/khaosoisan.jpg',
+    description: 'ร้านข้าวซอยเจ้าดังในน่านที่ชาวบ้านรู้จักกันดี น้ำซุปสูตรน่านรสชาติเข้มข้นแตกต่างจากเชียงใหม่ เครื่องเคียงครบครัน ราคาย่อมเยาแบบ local จริงๆ เปิดเฉพาะเช้าถึงบ่าย',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.5,
+    distance: '~500 ม. จากตัวเมือง',
+    tags: ['อาหาร', 'local', 'สตรีทฟู้ด'],
+  },
+  {
+    id: '48',
+    name: 'ตลาดเช้าริมน้ำน่าน',
+    lat: 18.7755,
+    long: 100.7775,
+    image: 'https://media.readthecloud.co/wp-content/uploads/2019/08/nan-market-01-750x500.jpg',
+    description: 'ตลาดเช้าริมน้ำน่านที่คึกคักที่สุดของเมือง มีผักพื้นบ้าน สมุนไพร อาหารพื้นเมืองน่าน และของกินจากชุมชน เปิดตี 5 – 9 โมงเช้า เป็น local market แท้ๆ ที่นักท่องเที่ยวส่วนใหญ่ยังไม่รู้จัก',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.4,
+    distance: '~1 กม. จากตัวเมือง',
+    tags: ['อาหาร', 'local', 'สตรีทฟู้ด'],
+  },
+  {
+    id: '49',
+    name: 'คาเฟ่ริมน่าน',
+    lat: 18.7744,
+    long: 100.7783,
+    image: 'https://img.wongnai.com/p/1920x0/2022/06/01/rimnan-cafe.jpg',
+    description: 'คาเฟ่วิวแม่น้ำน่านที่นักท่องเที่ยวชอบมานั่งชิล กาแฟท้องถิ่นรสดี บรรยากาศเงียบสงบ เหมาะกับสาย introvert ที่อยากนั่งดูแม่น้ำไหล อ่านหนังสือ หรือทำงาน',
+    country: 'ประเทศไทย',
+    city: 'Nan',
+    rating: 4.3,
+    distance: '~1.2 กม. จากตัวเมือง',
+    tags: ['คาเฟ่', 'ผ่อนคลาย', 'local'],
+  },
+];
+
+// ── Helper: filter by city ──────────────────
+export const getPlacesByCity = (city: string): TravelPlace[] =>
+  mockTravelPlaces.filter((p) => p.city === city);
+
+// ── Helper: filter by tag ───────────────────
+export const getPlacesByTag = (tag: string): TravelPlace[] =>
+  mockTravelPlaces.filter((p) => p.tags.includes(tag));
+
+// ── Helper: get all unique cities ───────────
+export const getAllCities = (): string[] =>
+  [...new Set(mockTravelPlaces.map((p) => p.city).filter(Boolean))] as string[];
+
+// ── Helper: get all unique tags ─────────────
+export const getAllTags = (): string[] =>
+  [...new Set(mockTravelPlaces.flatMap((p) => p.tags))];

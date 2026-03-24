@@ -137,15 +137,15 @@ function App() {
   // Show loading screen while LIFF initializes
   if (!isLiffReady) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-50 to-white flex flex-col items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-green-100 via-gruee-50 to-white flex flex-col items-center justify-center">
         <div className="text-center space-y-4">
-          <div className="w-16 h-16 mx-auto bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center animate-pulse">
+          <div className="w-16 h-16 mx-auto bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center animate-pulse">
             <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
             </svg>
           </div>
-          <h2 className="text-xl font-bold text-purple-800">Loading...</h2>
-          <p className="text-purple-600">Please wait</p>
+          <h2 className="text-xl font-bold text-green-800">Loading...</h2>
+          <p className="text-green-600">Please wait</p>
         </div>
       </div>
     );
